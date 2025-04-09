@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MASTERGLOBAL INVESTMENT</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-cover bg-center min-h-screen text-white" style="background-image: url('back.jpeg');">
+
+  <!-- Navigation Bar REsponsive -->
+  <nav class="bg-black bg-opacity-60 p-4 flex items-center justify-between flex-wrap">
+    <div class="text-2xl font-bold">MASTERGI</div>
+
+   
+    <button id="menu-toggle" class="text-white block md:hidden focus:outline-none">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+           viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+
+    
+    <div id="menu" class="w-full md:flex md:items-center md:w-auto hidden mt-4 md:mt-0">
+      <div class="flex flex-col md:flex-row gap-4 items-start md:items-center">
+        <a href="#" class="hover:text-blue-400">Home</a>
+        <a href="#" class="hover:text-blue-400">About Us</a>
+        <a href="#" class="hover:text-blue-400">Investment Portfolio</a>
+        <a href="#" class="hover:text-blue-400">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!--Login Screen/Register-->
+  <div class="flex justify-center items-center py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-md w-full bg-black bg-opacity-70 p-8 rounded-xl shadow-lg">
+      <h2 class="text-center text-2xl font-bold mb-2">LOGIN</h2>
+      <p class="text-sm text-center mb-6">
+        By logging in, you agree to the 
+        <a href="#" class="text-blue-400 underline hover:text-blue-300">Terms of Use</a>
+      </p>
+
+      <input type="text" placeholder="User Name"
+             class="w-full px-4 py-2 mb-4 rounded bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-500" />
+
+      <div class="relative mb-4">
+        <input type="password" id="password" placeholder="Password"
+               class="w-full px-4 py-2 rounded bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-500 pr-10" />
+        <button type="button" id="togglePassword" class="absolute top-1/2 right-3 transform -translate-y-1/2 text-black">
+          👁️
+        </button>
+      </div>
+
+      <button class="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 rounded mb-4">
+        ENTER
+      </button>
+
+      <div class="flex items-center text-sm mb-4">
+        <input id="remember" type="checkbox" class="mr-2" />
+        <label for="remember">Remember Me</label>
+      </div>
+
+      <div class="text-sm text-center mb-4">
+        <a href="#" class="text-blue-400 hover:text-blue-300 underline">Forgot Password?</a>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+<footer class="bg-black bg-opacity-80 text-white pt-16 pb-10 mt-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-10 text-sm">
+
+      <!-- Company Info -->
+      <div>
+        <h3 class="text-xl font-bold mb-4">MASTERGLOBAL INVESTMENT</h3>
+        <p>
+          Empowering your financial future with expert investment strategies, personalized wealth management, and trusted guidance for your long-term goals.
+        </p>
+        <p class="mt-4 text-gray-400">&copy; 2025 MASTERGI. All rights reserved.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h4 class="text-lg font-semibold mb-3">Quick Links</h4>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-blue-400">Home</a></li>
+          <li><a href="#" class="hover:text-blue-400">About Us</a></li>
+          <li><a href="#" class="hover:text-blue-400">Investment Portfolio</a></li>
+          <li><a href="#" class="hover:text-blue-400">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div>
+        <h4 class="text-lg font-semibold mb-3">Contact</h4>
+        <p>Email: <a href="mailto:support@mastergi.com" class="hover:text-blue-400">support@mastergi.com</a></p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Address: 101 Business Bay, Mumbai, India</p>
+      </div>
+
+      <!-- Social Media -->
+      <div>
+        <h4 class="text-lg font-semibold mb-3">Follow Us</h4>
+        <div class="flex space-x-4 mt-2">
+          <!-- Facebook -->
+          <a href="#" aria-label="Facebook" class="hover:text-blue-500">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M22 12a10 10 0 10-11.6 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V12h2.3l-.4 3h-1.9v7A10 10 0 0022 12z"/>
+            </svg>
+          </a>
+          <!-- Twitter -->
+          <a href="#" aria-label="Twitter" class="hover:text-blue-400">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M23 3a10.9 10.9 0 01-3.1 1.5A4.48 4.48 0 0022.4 1a9.2 9.2 0 01-2.9 1.1A4.52 4.52 0 0016 1c-2.5 0-4.5 2-4.5 4.5 0 .4 0 .8.1 1.2A12.8 12.8 0 013 2.1a4.4 4.4 0 00-.6 2.3 4.5 4.5 0 002 3.7A4.48 4.48 0 012 7.5v.1a4.5 4.5 0 003.6 4.4 4.52 4.52 0 01-2 .1 4.5 4.5 0 004.2 3.1A9.06 9.06 0 012 19.5a12.9 12.9 0 007 2c8.4 0 13-7 13-13 0-.2 0-.5 0-.7A9.3 9.3 0 0023 3z"/>
+            </svg>
+          </a>
+          <!-- LinkedIn -->
+          <a href="#" aria-label="LinkedIn" class="hover:text-blue-300">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M4.98 3.5a2.5 2.5 0 110 5 2.5 2.5 0 010-5zM4 8h2v12H4zM8.5 8h1.9v1.7h.03a2 2 0 011.8-1c1.9 0 2.3 1.3 2.3 3v6.3H14v-5.6c0-1.3-.5-2.2-1.6-2.2-.9 0-1.3.6-1.5 1.1-.1.2-.1.5-.1.8v5.9H8.5z"/>
+            </svg>
+          </a>
+          <!-- Instagram -->
+          <a href="#" aria-label="Instagram" class="hover:text-pink-400">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10zm0 2c1.7 0 3 1.3 3 3s-1.3 3-3 3a3 3 0 110-6zm4.5-2a1 1 0 100 2 1 1 0 000-2z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="border-t border-gray-700 mt-10 pt-6 text-center text-xs text-gray-400">
+      Disclaimer: Investments are subject to market risks. Please read all scheme-related documents carefully before investing. MASTERGI does not guarantee returns.
+    </div>
+  </div>
+</footer>
+
+ 
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', () => {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('hidden');
+    });
+
+    document.getElementById('togglePassword').addEventListener('click', () => {
+      const passwordInput = document.getElementById('password');
+      const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+      passwordInput.setAttribute('type', type);
+      document.getElementById('togglePassword').textContent = type === 'password' ? '👁️' : '🙈';
+    });
+  </script>
+
+</body>
+</html>
